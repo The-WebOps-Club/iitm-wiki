@@ -1,6 +1,6 @@
 # iitm-wiki
-A wiki for IIT Madras
-The following is the installation process for mediaWiki on the local system:
+A wiki for IIT Madras.
+The following is the process for installing mediaWiki on the local system:
 
     -Go to the website https://www.apachefriends.org/index.html and install Xampp as per your system 
     i.e if it is Windows or Mac or Linux
