@@ -32,4 +32,4 @@ The following is the process for installing mediaWiki on the local system:
 Now your wiki is installed, feed the address "localhost/mediawiki" in your web browser to open the wiki. 
 You can go through the following link for any details : https://www.youtube.com/watch?v=FkSfC1GLOc0 . 
     
-    
+     
