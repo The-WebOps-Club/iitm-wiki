@@ -1,4 +1,6 @@
 # iitm-wiki
+
+[![Join the chat at https://gitter.im/The-WebOps-Club/iitm-wiki](https://badges.gitter.im/The-WebOps-Club/iitm-wiki.svg)](https://gitter.im/The-WebOps-Club/iitm-wiki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A wiki for IIT Madras.
 The following is the process for installing mediaWiki on the local system:
 
@@ -30,4 +32,4 @@ The following is the process for installing mediaWiki on the local system:
 Now your wiki is installed, feed the address "localhost/mediawiki" in your web browser to open the wiki. 
 You can go through the following link for any details : https://www.youtube.com/watch?v=FkSfC1GLOc0 . 
     
-    
+     
