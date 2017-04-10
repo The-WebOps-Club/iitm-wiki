@@ -34,8 +34,33 @@ Installation process of MediaWiki in ubuntu 16.04
             sudo apt-get install php7.0-xml
             
    Restart your apache2 server.
-
+   
+ 4. Installation of MediaWiki :
+    Download the MedaWiki zipped file from https://www.mediawiki.org/wiki/Download
+    Extract the zipped file and move it to the following directory -
+    
+            /var/www/html
             
+ 5. Creating new user and database in mysql for storing  MediaWiki data :
+            
+     login your mysql as root user by executing following command-
+     
+            mysql -u root -p
+            
+      create new user as following -
+      
+            CREATE USER 'wikiuser'@'localhost' IDENTIFIED BY 'pass-w0rd';
+            GRANT ALL PRIVILEGES ON * . * TO 'wikiuser'@'localhost';
+            flush privileges;
+            quit;
+            
+  6. Completing the installation process :
+  
+     Feed the following address to your web browser : localhost/mediawiki
+     Move forward as per the instruction displayed and download the LocalSettings.php file
+     Move the LocalSettings.php file to the following directory /var/www/html/mediawiki
+
+         
         
 
 
