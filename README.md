@@ -1,6 +1,58 @@
 # iitm-wiki
-
 [![Join the chat at https://gitter.im/The-WebOps-Club/iitm-wiki](https://badges.gitter.im/The-WebOps-Club/iitm-wiki.svg)](https://gitter.im/The-WebOps-Club/iitm-wiki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+Installation process of MediaWiki in ubuntu 16.04
+
+1. Installation of Apachae2 web server : Execute the following commands -
+
+            sudo apt-get update
+            sudo apt-get install apache2
+            
+    Execute the following command to restart Apache2 serever whenever required.
+    
+            sudo systemctl restart apache2
+           
+2. Installation of MySQL : Execute the following commands -
+
+            sudo apt-get update
+            sudo apt-get install mysql-server
+            
+   You can configure your MySql database by executing following command :
+   
+            sudo mysql secure installation
+            
+   You will be asked to set the the root user name and password.
+   
+3. Installation of php and its extensions :
+
+            sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+            
+   The above command will install the php without error. Execute the following commands to install the extensions required to run
+   MediaWiki
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 A wiki for IIT Madras.
 The following is the process for installing mediaWiki on the local system:
