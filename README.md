@@ -27,8 +27,14 @@ Installation process of MediaWiki in ubuntu 16.04
 
             sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
             
-   The above command will install the php without error. Execute the following commands to install the extensions required to run
-   MediaWiki
+   The above command will install the php without error. Execute the following commands to install the mbstring and xml   
+   extensions which are required to run MediaWiki
+   
+            sudo apt-get install php7.0-mbstring
+            sudo apt-get install php7.0-xml
+            
+   Restart your apache2 server.
+
             
         
 
