@@ -8,7 +8,7 @@ Installation process of MediaWiki in ubuntu 16.04
             sudo apt-get update
             sudo apt-get install apache2
             
-    Execute the following command to restart Apache2 serever whenever required.
+    Execute the following command to restart Apache2 server whenever required.
     
             sudo systemctl restart apache2
            
@@ -36,7 +36,8 @@ Installation process of MediaWiki in ubuntu 16.04
    Restart your apache2 server.
    
  4. Installation of MediaWiki :
-    Download the MedaWiki zipped file from https://www.mediawiki.org/wiki/Download
+    Download the MedaWiki zipped file from https://www.mediawiki.org/wiki/Download.
+    
     Extract the zipped file and move it to the following directory -
     
             /var/www/html
@@ -85,8 +86,11 @@ Installation process of MediaWiki in ubuntu 16.04
 
 
 
-A wiki for IIT Madras.
-The following is the process for installing mediaWiki on the local system:
+
+
+
+
+The following is the process for installing mediaWiki in windows environment.
 
     -Go to the website https://www.apachefriends.org/index.html and install Xampp as per your system 
     i.e if it is Windows or Mac or Linux
